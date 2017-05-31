@@ -2,8 +2,8 @@
 
 .left-span,
 .right-span {
+  @extend %bold;
   margin: 1rem;
-  font-weight: bold;
 }
 
 .left-span {

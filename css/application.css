@@ -14,12 +14,20 @@ nav {
   padding-bottom: 1rem;
   margin-bottom: 1rem; }
 
+#contact, #skills {
+  margin: 4rem auto; }
+
+#name, .left-span,
+.right-span, nav li,
+.skillset li {
+  font-weight: bold; }
+
+#name, p {
+  font-size: 1.2rem; }
+
 /* Header Styles */
 #name {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-size: 1.3rem;
-  font-weight: bold; }
+  padding: 0.5rem 0; }
 
 #portfolio {
   background-color: antiquewhite;
@@ -28,21 +36,16 @@ nav {
 #profile-picture {
   width: 320px; }
 
-#skills,
-#contact {
-  margin: 4rem auto; }
-
-#skills {
-  font-family: Kalam;
-  color: tomato; }
-
 #contact {
   width: 70%; }
 
 /* Text Styles */
+#skills {
+  font-family: Kalam, serif;
+  color: tomato; }
+
 p {
-  margin: 1rem;
-  font-size: 1.2rem; }
+  margin: 1rem; }
 
 .grey {
   color: #7f7f7f; }
@@ -50,8 +53,7 @@ p {
 /* Footer Styles */
 .left-span,
 .right-span {
-  margin: 1rem;
-  font-weight: bold; }
+  margin: 1rem; }
 
 .left-span {
   float: left; }
@@ -73,8 +75,7 @@ nav li,
 .skillset li {
   padding: 1rem;
   margin: 1rem;
-  background-color: #fff;
-  font-weight: bold; }
+  background-color: #fff; }
 
 /* Link Styles */
 a {

@@ -1,0 +1,16 @@
+/* Text Styles */
+
+#skills {
+  @extend %position;
+  font-family: Kalam, serif;
+  color: tomato;
+}
+
+p {
+  @extend %font-size;
+  margin: 1rem;
+}
+
+.grey {
+  color: #7f7f7f;
+}
