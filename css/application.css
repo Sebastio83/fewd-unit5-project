@@ -1,3 +1,97 @@
+/* Base Styles */
+* {
+  padding: 0;
+  margin: 0; }
 
+body {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #4a4a4a;
+  background-color: #fafafa; }
+
+nav {
+  background-color: skyblue;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem; }
+
+/* Header Styles */
+#name {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: bold; }
+
+#portfolio {
+  background-color: antiquewhite;
+  padding-top: 1rem; }
+
+#profile-picture {
+  width: 320px; }
+
+#skills,
+#contact {
+  margin: 4rem auto; }
+
+#skills {
+  font-family: Kalam;
+  color: tomato; }
+
+#contact {
+  width: 70%; }
+
+/* Text Styles */
+p {
+  margin: 1rem;
+  font-size: 1.2rem; }
+
+.grey {
+  color: #7f7f7f; }
+
+/* Footer Styles */
+.left-span,
+.right-span {
+  margin: 1rem;
+  font-weight: bold; }
+
+.left-span {
+  float: left; }
+
+.right-span {
+  float: right; }
+
+.large-footer {
+  display: none; }
+
+/* List Styles */
+ul {
+  list-style-type: none; }
+
+.skillset li {
+  border: 1px solid #7f7f7f; }
+
+nav li,
+.skillset li {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #fff;
+  font-weight: bold; }
+
+/* Link Styles */
+a {
+  color: #4a4a4a;
+  text-decoration: none;
+  font-size: 1rem; }
+
+a:hover {
+  color: salmon;
+  text-decoration: underline; }
+
+a:focus {
+  background-color: lightskyblue; }
+
+/* Image Styles*/
+.portfolio-img {
+  max-width: 95%;
+  margin: 20px auto; }
 
 /*# sourceMappingURL=application.css.map */
