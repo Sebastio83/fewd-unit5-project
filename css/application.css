@@ -5,12 +5,12 @@
 
 body {
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  color: #4a4a4a;
+  font-family: "Lato", sans-serif;
+  color: body tundora;
   background-color: #fafafa; }
 
 nav {
-  background-color: skyblue;
+  background-color: #76d7ea;
   padding-bottom: 1rem;
   margin-bottom: 1rem; }
 
@@ -18,13 +18,11 @@ nav {
 ul {
   list-style-type: none; }
 
-.skillset li {
-  border: 1px solid #7f7f7f; }
-
 nav li,
 .skillset li {
   padding: 1rem;
-  background-color: #fff; }
+  background-color: #fff;
+  border: 1px solid #7f7f7f; }
 
 /* Link Styles */
 a {
@@ -32,21 +30,17 @@ a {
   text-decoration: none;
   font-size: 1rem; }
   a:hover {
-    color: salmon;
+    color: #ff8c69;
     text-decoration: underline; }
   a:focus {
-    background-color: lightskyblue; }
+    background-color: #76d7ea; }
 
 /* Text Styles */
-#skills {
-  font-family: Kalam, serif;
-  color: tomato; }
-
 .text-color {
   color: #7f7f7f; }
 
 nav li,
-.skillset li, #skills, p, #contact {
+.skillset li, p, #skills, #contact {
   margin: 1.2rem auto; }
 
 nav li,
@@ -58,21 +52,26 @@ nav li,
 .skillset li, p, #name {
   font-size: 1.2rem; }
 
+ul, p, .portfolio-img {
+  max-width: 95%;
+  margin: 20px auto; }
+
 /* Image Styles*/
 #profile-picture {
   width: 320px; }
-
-.portfolio-img {
-  max-width: 95%;
-  margin: 20px auto; }
 
 /* Header Styles */
 #name {
   padding: 0.5rem 0; }
 
-#portfolio {
-  background-color: antiquewhite;
+/* Portfolio Styles */
+.portfolio {
+  background-color: #faebd7;
   padding-top: 1rem; }
+
+#skills {
+  font-family: "Kalam", serif;
+  color: #ff6347; }
 
 /* Contact Section Styles */
 #contact {

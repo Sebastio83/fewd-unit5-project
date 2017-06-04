@@ -1,0 +1,11 @@
+/* Text Styles */
+
+p {
+  @extend %font-size;
+  @extend %position;
+  @extend %center;
+}
+
+.text-color {
+  color: $gray;
+}

@@ -1,0 +1,9 @@
+/* Portfolio Styles */
+
+.portfolio {
+  background-color: $champagne;
+  padding-top: 1rem;
+  &-img {
+  @extend %center;
+  }
+}

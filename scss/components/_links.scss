@@ -1,14 +1,14 @@
 /* Link Styles */
 
 a {
-  color: #4a4a4a;
+  color: $tundora;
   text-decoration: none;
   font-size: 1rem;
   &:hover {
-  color: salmon;
+  color: $salmon;
   text-decoration: underline;
   }
   &:focus {
-  background-color: lightskyblue;
+  background-color: $skyblue;
   }
 }

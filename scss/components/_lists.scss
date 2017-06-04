@@ -1,11 +1,8 @@
 /* List Styles */
 
 ul {
+  @extend %center;
   list-style-type: none;
-}
-
-.skillset li {
-  border: 1px solid #7f7f7f;
 }
 
 nav li,
@@ -14,5 +11,6 @@ nav li,
   @extend %bold;
   @extend %font-size;
   padding: 1rem;
-  background-color: #fff;
+  background-color: $white;
+  border: 1px solid $gray;
 }

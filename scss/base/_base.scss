@@ -8,13 +8,13 @@
 
 body {
   text-align: center;
-  font-family: 'Lato', sans-serif;
-  color: #4a4a4a;
-  background-color: #fafafa;
+  font-family: $stack-sans-serif;
+  color: &tundora;
+  background-color: $alabaster;
 }
 
 nav {
-  background-color: skyblue;
+  background-color: $skyblue;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
