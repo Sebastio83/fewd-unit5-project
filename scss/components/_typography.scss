@@ -8,9 +8,9 @@
 
 p {
   @extend %font-size;
-  margin: 1rem;
+  @extend %position;
 }
 
-.grey {
+.text-color {
   color: #7f7f7f;
 }

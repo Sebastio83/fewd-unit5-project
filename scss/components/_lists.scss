@@ -10,8 +10,9 @@ ul {
 
 nav li,
 .skillset li {
+  @extend %position;
   @extend %bold;
+  @extend %font-size;
   padding: 1rem;
-  margin: 1rem;
   background-color: #fff;
 }

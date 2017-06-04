@@ -4,20 +4,11 @@ a {
   color: #4a4a4a;
   text-decoration: none;
   font-size: 1rem;
-}
-
-a:hover {
+  &:hover {
   color: salmon;
   text-decoration: underline;
-}
-
-a:focus {
+  }
+  &:focus {
   background-color: lightskyblue;
-}
-
-/* Image Styles*/
-
-.portfolio-img {
-  max-width: 95%;
-  margin: 20px auto;
+  }
 }

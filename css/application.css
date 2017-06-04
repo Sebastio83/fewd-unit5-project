@@ -14,16 +14,57 @@ nav {
   padding-bottom: 1rem;
   margin-bottom: 1rem; }
 
-#contact, #skills {
-  margin: 4rem auto; }
+/* List Styles */
+ul {
+  list-style-type: none; }
 
-#name, .left-span,
-.right-span, nav li,
 .skillset li {
+  border: 1px solid #7f7f7f; }
+
+nav li,
+.skillset li {
+  padding: 1rem;
+  background-color: #fff; }
+
+/* Link Styles */
+a {
+  color: #4a4a4a;
+  text-decoration: none;
+  font-size: 1rem; }
+  a:hover {
+    color: salmon;
+    text-decoration: underline; }
+  a:focus {
+    background-color: lightskyblue; }
+
+/* Text Styles */
+#skills {
+  font-family: Kalam, serif;
+  color: tomato; }
+
+.text-color {
+  color: #7f7f7f; }
+
+nav li,
+.skillset li, #skills, p, #contact {
+  margin: 1.2rem auto; }
+
+nav li,
+.skillset li, #name, .left-span,
+.right-span {
   font-weight: bold; }
 
-#name, p {
+nav li,
+.skillset li, p, #name {
   font-size: 1.2rem; }
+
+/* Image Styles*/
+#profile-picture {
+  width: 320px; }
+
+.portfolio-img {
+  max-width: 95%;
+  margin: 20px auto; }
 
 /* Header Styles */
 #name {
@@ -33,22 +74,9 @@ nav {
   background-color: antiquewhite;
   padding-top: 1rem; }
 
-#profile-picture {
-  width: 320px; }
-
+/* Contact Section Styles */
 #contact {
   width: 70%; }
-
-/* Text Styles */
-#skills {
-  font-family: Kalam, serif;
-  color: tomato; }
-
-p {
-  margin: 1rem; }
-
-.grey {
-  color: #7f7f7f; }
 
 /* Footer Styles */
 .left-span,
@@ -63,36 +91,5 @@ p {
 
 .large-footer {
   display: none; }
-
-/* List Styles */
-ul {
-  list-style-type: none; }
-
-.skillset li {
-  border: 1px solid #7f7f7f; }
-
-nav li,
-.skillset li {
-  padding: 1rem;
-  margin: 1rem;
-  background-color: #fff; }
-
-/* Link Styles */
-a {
-  color: #4a4a4a;
-  text-decoration: none;
-  font-size: 1rem; }
-
-a:hover {
-  color: salmon;
-  text-decoration: underline; }
-
-a:focus {
-  background-color: lightskyblue; }
-
-/* Image Styles*/
-.portfolio-img {
-  max-width: 95%;
-  margin: 20px auto; }
 
 /*# sourceMappingURL=application.css.map */
