@@ -7,10 +7,11 @@ ul {
 
 nav li,
 .skillset li {
+  @include bg-color(
+    $bg-color: $white);
   @extend %position;
   @extend %bold;
   @extend %font-size;
   padding: 1rem;
-  background-color: $white;
   border: 1px solid $gray;
 }

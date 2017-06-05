@@ -1,17 +1,17 @@
 /* Footer Styles */
 
-.left-span,
-.right-span {
-  @extend %bold;
-  margin: 1rem;
-}
-
 .left-span {
-  float: left;
+  @include span(
+    $font-weight: bold,
+    $margin: 1rem,
+    $float: left);
 }
 
 .right-span {
-  float: right;
+  @include span(
+    $font-weight: bold, 
+    $margin: 1rem, 
+    $float: right);
 }
 
 .large-footer {

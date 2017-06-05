@@ -7,5 +7,6 @@ p {
 }
 
 .text-color {
-  color: $gray;
+  @include font (
+    $color: $gray);
 }

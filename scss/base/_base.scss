@@ -7,14 +7,17 @@
 }
 
 body {
+  @include font (
+    $color: $tundora);
+  @include bg-color (
+    $bg-color: $alabaster);
   text-align: center;
   font-family: $stack-sans-serif;
-  color: &tundora;
-  background-color: $alabaster;
 }
 
 nav {
-  background-color: $skyblue;
+  @include bg-color (
+    $bg-color: $skyblue);
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }

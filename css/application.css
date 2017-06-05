@@ -4,10 +4,10 @@
   margin: 0; }
 
 body {
+  color: #4a4a4a;
+  background-color: #fafafa;
   text-align: center;
-  font-family: "Lato", sans-serif;
-  color: body tundora;
-  background-color: #fafafa; }
+  font-family: "Lato", sans-serif; }
 
 nav {
   background-color: #76d7ea;
@@ -20,15 +20,15 @@ ul {
 
 nav li,
 .skillset li {
-  padding: 1rem;
   background-color: #fff;
+  padding: 1rem;
   border: 1px solid #7f7f7f; }
 
 /* Link Styles */
 a {
+  font-size: 1rem;
   color: #4a4a4a;
-  text-decoration: none;
-  font-size: 1rem; }
+  text-decoration: none; }
   a:hover {
     color: #ff8c69;
     text-decoration: underline; }
@@ -44,8 +44,7 @@ nav li,
   margin: 1.2rem auto; }
 
 nav li,
-.skillset li, #name, .left-span,
-.right-span {
+.skillset li, #name {
   font-weight: bold; }
 
 nav li,
@@ -78,14 +77,14 @@ ul, p, .portfolio-img {
   width: 70%; }
 
 /* Footer Styles */
-.left-span,
-.right-span {
-  margin: 1rem; }
-
 .left-span {
+  font-weight: bold;
+  margin: 1rem;
   float: left; }
 
 .right-span {
+  font-weight: bold;
+  margin: 1rem;
   float: right; }
 
 .large-footer {

@@ -1,14 +1,17 @@
 /* Link Styles */
 
 a {
-  color: $tundora;
+  @include font (
+    $font-size: 1rem, 
+    $color: $tundora);
   text-decoration: none;
-  font-size: 1rem;
   &:hover {
-  color: $salmon;
+  @include font (
+    $color: $salmon);
   text-decoration: underline;
   }
   &:focus {
-  background-color: $skyblue;
+  @include bg-color (
+    $bg-color: $skyblue);
   }
 }

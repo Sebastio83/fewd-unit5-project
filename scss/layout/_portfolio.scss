@@ -1,7 +1,8 @@
 /* Portfolio Styles */
 
 .portfolio {
-  background-color: $champagne;
+  @include bg-color(
+    $bg-color: $champagne);
   padding-top: 1rem;
   &-img {
   @extend %center;
