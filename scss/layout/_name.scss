@@ -1,0 +1,7 @@
+/* Header Styles */
+
+#name {
+  @extend %bold;
+  @extend %font-size;
+  padding: 0.5rem 0;
+}

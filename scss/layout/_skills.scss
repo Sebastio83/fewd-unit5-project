@@ -1,0 +1,6 @@
+#skills {
+  @extend %position;
+  font-family: $stack-serif;
+  @include font (
+    $color: $persimmon)
+}

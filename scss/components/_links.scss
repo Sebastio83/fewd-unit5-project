@@ -1,23 +1,17 @@
 /* Link Styles */
 
 a {
-  color: #4a4a4a;
+  @include font (
+    $font-size: 1rem, 
+    $color: $tundora);
   text-decoration: none;
-  font-size: 1rem;
-}
-
-a:hover {
-  color: salmon;
+  &:hover {
+  @include font (
+    $color: $salmon);
   text-decoration: underline;
-}
-
-a:focus {
-  background-color: lightskyblue;
-}
-
-/* Image Styles*/
-
-.portfolio-img {
-  max-width: 95%;
-  margin: 20px auto;
+  }
+  &:focus {
+  @include bg-color (
+    $bg-color: $skyblue);
+  }
 }

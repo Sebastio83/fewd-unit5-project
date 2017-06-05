@@ -4,94 +4,90 @@
   margin: 0; }
 
 body {
-  text-align: center;
-  font-family: 'Lato', sans-serif;
   color: #4a4a4a;
-  background-color: #fafafa; }
+  background-color: #fafafa;
+  text-align: center;
+  font-family: "Lato", sans-serif; }
 
 nav {
-  background-color: skyblue;
+  background-color: #76d7ea;
   padding-bottom: 1rem;
   margin-bottom: 1rem; }
-
-/* Header Styles */
-#name {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-size: 1.3rem;
-  font-weight: bold; }
-
-#portfolio {
-  background-color: antiquewhite;
-  padding-top: 1rem; }
-
-#profile-picture {
-  width: 320px; }
-
-#skills,
-#contact {
-  margin: 4rem auto; }
-
-#skills {
-  font-family: Kalam;
-  color: tomato; }
-
-#contact {
-  width: 70%; }
-
-/* Text Styles */
-p {
-  margin: 1rem;
-  font-size: 1.2rem; }
-
-.grey {
-  color: #7f7f7f; }
-
-/* Footer Styles */
-.left-span,
-.right-span {
-  margin: 1rem;
-  font-weight: bold; }
-
-.left-span {
-  float: left; }
-
-.right-span {
-  float: right; }
-
-.large-footer {
-  display: none; }
 
 /* List Styles */
 ul {
   list-style-type: none; }
 
-.skillset li {
-  border: 1px solid #7f7f7f; }
-
 nav li,
 .skillset li {
-  padding: 1rem;
-  margin: 1rem;
   background-color: #fff;
-  font-weight: bold; }
+  padding: 1rem;
+  border: 1px solid #7f7f7f; }
 
 /* Link Styles */
 a {
+  font-size: 1rem;
   color: #4a4a4a;
-  text-decoration: none;
-  font-size: 1rem; }
+  text-decoration: none; }
+  a:hover {
+    color: #ff8c69;
+    text-decoration: underline; }
+  a:focus {
+    background-color: #76d7ea; }
 
-a:hover {
-  color: salmon;
-  text-decoration: underline; }
+/* Text Styles */
+.text-color {
+  color: #7f7f7f; }
 
-a:focus {
-  background-color: lightskyblue; }
+nav li,
+.skillset li, p, #skills, #contact {
+  margin: 1.2rem auto; }
 
-/* Image Styles*/
-.portfolio-img {
+nav li,
+.skillset li, #name {
+  font-weight: bold; }
+
+nav li,
+.skillset li, p, #name {
+  font-size: 1.2rem; }
+
+ul, p, .portfolio-img {
   max-width: 95%;
   margin: 20px auto; }
+
+/* Image Styles*/
+#profile-picture {
+  width: 320px; }
+
+/* Header Styles */
+#name {
+  padding: 0.5rem 0; }
+
+/* Portfolio Styles */
+.portfolio {
+  background-color: #faebd7;
+  padding-top: 1rem; }
+
+#skills {
+  font-family: "Kalam", serif;
+  color: #ff6347; }
+
+/* Contact Section Styles */
+#contact {
+  width: 70%; }
+
+/* Footer Styles */
+.left-span {
+  font-weight: bold;
+  margin: 1rem;
+  float: left; }
+
+.right-span {
+  font-weight: bold;
+  margin: 1rem;
+  float: right; }
+
+.large-footer {
+  display: none; }
 
 /*# sourceMappingURL=application.css.map */
