@@ -2,17 +2,14 @@
 
 nav {
   @extend %clearfix;
-}
-
-nav li {
-  @media #{$brk-wide} {
-    display: inline-block;
-    float: right;
+  & li {
+    @media #{$brk-wide} {
+      display: inline-block;
+    }
   }
 }
 
-nav li,
-.skillset li {
+ul li {
   @include bg-color(
     $bg-color: $white);
   @extend %position;
@@ -20,4 +17,11 @@ nav li,
   @extend %font-size;
   padding: 1rem;
   border: 1px solid $gray;
+}
+
+.nav {
+  @media #{$brk-wide}{
+    float: right;
+    margin: 0;
+  }
 }

@@ -1,13 +1,10 @@
-nav li,
-.skillset li, p, #skills, #contact {
+ul li, p, #skills, #contact {
   margin: 1.2rem auto; }
 
-nav li,
-.skillset li, #name {
+ul li, #name {
   font-weight: bold; }
 
-nav li,
-.skillset li, p, #name {
+ul li, p, #name {
   font-size: 1.2rem; }
 
 ul, p, .info, .portfolio-img {
@@ -38,14 +35,17 @@ nav {
 /* Navigaiton Styles */
 @media (min-width: 1024px) {
   nav li {
-    display: inline-block;
-    float: right; } }
+    display: inline-block; } }
 
-nav li,
-.skillset li {
+ul li {
   background-color: #fff;
   padding: 1rem;
   border: 1px solid #7f7f7f; }
+
+@media (min-width: 1024px) {
+  .nav {
+    float: right;
+    margin: 0; } }
 
 /* List Styles */
 ul {
