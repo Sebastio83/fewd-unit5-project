@@ -1,5 +1,9 @@
 /* Footer Styles */
 
+footer {
+  @extend %clearfix;
+}
+
 .left-span {
   @include span(
     $font-weight: bold,
@@ -14,6 +18,24 @@
     $float: right);
 }
 
+ .right-span a {
+    @media #{$brk-narrow} {
+      list-style-type: none;
+      display: inline;
+      margin: 1rem;
+    }
+  }
+
 .large-footer {
-  display: none; 
+  display: none;
+  
+  @media #{$brk-narrow} {
+    display: inline;
+  }
+}
+
+.small-footer {
+  @media #{$brk-narrow} {
+    display: none;
+  }
 }

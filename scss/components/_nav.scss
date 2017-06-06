@@ -1,0 +1,23 @@
+/* Navigaiton Styles */
+
+nav {
+  @extend %clearfix;
+}
+
+nav li {
+  @media #{$brk-wide} {
+    display: inline-block;
+    float: right;
+  }
+}
+
+nav li,
+.skillset li {
+  @include bg-color(
+    $bg-color: $white);
+  @extend %position;
+  @extend %bold;
+  @extend %font-size;
+  padding: 1rem;
+  border: 1px solid $gray;
+}

@@ -1,7 +1,13 @@
-/* Header Styles */
+/* Name Section Styles */
 
 #name {
   @extend %bold;
   @extend %font-size;
   padding: 0.5rem 0;
+  
+  @media #{$brk-wide} {
+    float: left;
+    padding: .8rem;
+    margin: 0.5rem;
+  }
 }

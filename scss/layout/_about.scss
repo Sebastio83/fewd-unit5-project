@@ -1,0 +1,6 @@
+.about {
+  @media #{$brk-narrow} {
+    text-align: left;
+    padding: 1rem;
+  }
+}

@@ -2,5 +2,6 @@
 
 #contact {
   @extend %position;
-  width: 70%;
+  @extend %clearfix;
+  @include width (75%);
 }

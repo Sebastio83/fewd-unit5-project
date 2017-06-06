@@ -1,4 +1,3 @@
-
 /// Descriptive Color variables
 
 $alabaster: #fafafa;
@@ -19,3 +18,8 @@ $white: #fff;
 
 $stack-sans-serif: 'Lato', sans-serif;
 $stack-serif: 'Kalam', serif;
+
+// Media Query Breakpoints
+
+$brk-narrow: '(min-width: 768px)';
+$brk-wide: '(min-width: 1024px)';

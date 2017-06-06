@@ -5,13 +5,10 @@ ul {
   list-style-type: none;
 }
 
-nav li,
-.skillset li {
-  @include bg-color(
-    $bg-color: $white);
-  @extend %position;
-  @extend %bold;
-  @extend %font-size;
-  padding: 1rem;
-  border: 1px solid $gray;
+ul li {
+  @media #{$brk-narrow} {
+    display: inline-block;
+    padding: 1rem 0.5rem;
+    margin: 0.5rem;
+  }
 }

@@ -4,6 +4,7 @@
   @include bg-color(
     $bg-color: $champagne);
   padding-top: 1rem;
+  @extend %clearfix;
   &-img {
   @extend %center;
   }

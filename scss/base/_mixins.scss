@@ -1,11 +1,12 @@
-// font Mixin
+// Font Mixin
+
 @mixin font ($font-size: null, $font-weight: null, $color: null) {
   font-size: $font-size;
   font-weight: $font-weight;
   color: $color;
 }
 
-// color Mixin
+// Color Mixin
 
 @mixin bg-color ($bg-color) {
   background-color: $bg-color;
@@ -17,4 +18,10 @@
   font-weight: $font-weight;
   margin: $margin;
   float: $float;
+}
+
+// Width Mixin
+
+@mixin width ($width) {
+  width: $width;
 }

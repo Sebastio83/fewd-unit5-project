@@ -1,6 +1,17 @@
+/* Skill Section Styles s*/
+
 #skills {
   @extend %position;
+  @extend %clearfix;
   font-family: $stack-serif;
   @include font (
-    $color: $persimmon)
+    $color: $persimmon);
+    
+  @media #{$brk-narrow} { 
+    clear: both;
+  }
+  
+  @media #{$brk-wide} {
+    @include width (75%);
+  }
 }

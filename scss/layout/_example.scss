@@ -1,0 +1,14 @@
+.example {
+  
+  @media #{$brk-narrow} {
+    @include width (50%);
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: top;
+  }
+  
+  @media #{$brk-wide} {
+    @include width(30%);
+    margin: auto;
+  }
+}

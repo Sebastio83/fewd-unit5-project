@@ -4,6 +4,7 @@ p {
   @extend %font-size;
   @extend %position;
   @extend %center;
+  @extend %clearfix;
 }
 
 .text-color {
